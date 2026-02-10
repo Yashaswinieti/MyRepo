@@ -1,0 +1,9 @@
+Jenkins setup
+yum install java-17-amazon-corretto -y
+sudo wget -O /etc/yum.repos.d/jenkins.repo \
+    https://pkg.jenkins.io/rpm-stable/jenkins.repo
+yum install Jenkins -y
+
+Jenkins path password
+
+4b852fced17844b1aefe31068145d978
